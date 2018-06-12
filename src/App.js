@@ -8,8 +8,8 @@ import Navbar from "./components/Navbar";
 
 const App = () => (
   <div>
-    <Navbar />
     <Header />
+    <Navbar />
     <Section />
   </div>
   );
