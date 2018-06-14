@@ -2,9 +2,7 @@ import React, { Component } from 'react';
 import "../styles/Friend.css";
 
 export default class Friend extends Component {
-    constructor(props) {
-        super(props)
-    }
+
 
     render() {
         return (
