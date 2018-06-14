@@ -1,16 +1,26 @@
-import React from "react";
-import HelloDiv from "./components/HelloDiv";
-import JSXVariables from "./components/JSXVariables";
-import Header from "./components/Header";
-import Section from "./components/Section";
+import React, { Component } from 'react';
+import Main from './components/Main';
+import Header from './components/Header';
+import './App.css';
 
-import Navbar from "./components/Navbar";
+class App extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      score: 0,
+      topScore: 0,
+      clicked: []
+    }
+  }
+  itScored = (id) => {
+    if (this.state.clicked.includes(id)) {
+      this.setState({score:0});
+      this.setState({clicked:[]})
+    } else {
+      this.setState({})
+    }
+  }
 
-const App = () => (
-  <div>
-    <Header />
-    <Navbar />
-    <Section />
-  </div>
-  );
-export default App;
+
+
+}

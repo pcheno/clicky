@@ -1,0 +1,58 @@
+[
+    {
+        "id": "01",
+        "name": "Beth",
+        "src":  "assets/images/beth.png"
+    },
+    {
+        "id": "02",
+        "name": "Birdperson",
+        "src":  "assets/images/birdperson.png"
+    },
+    {
+        "id": "03",
+        "name": "EvilMorty",
+        "src":  "assets/images/evilmorty.png"
+    },
+    {
+        "id": "04",
+        "name": "GiantHead",
+        "src":  "assets/images/gianthead.png"
+    },
+    {
+        "id": "05",
+        "name": "Goldenford",
+        "src":  "assets/images/goldenford.png"
+    },
+    {
+        "id": "06",
+        "name": "Jerry",
+        "src":  "assets/images/jerry.png"
+    },
+    {
+        "id": "07",
+        "name": "Jessica",
+        "src":  "assets/images/jessica.png"
+    },
+    {
+        "id": "08",
+        "name": "Meseeks",
+        "src":  "assets/images/meseeks.png"
+    },
+    {
+        "id": "09",
+        "name": "Mory",
+        "src":  "assets/images/morty.png"
+    },
+    {
+        "id": "10",
+        "name": "Mr",
+        "src":  "assets/images/mr.png"
+    },
+    {
+        "id": "11",
+        "name": "Rick",
+        "src":  "assets/images/rick.png"
+    }
+
+]
