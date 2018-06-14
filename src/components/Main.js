@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Friend from "/.Friend";
+import Friend from "./Friend";
 import friendArray from "../friendArray.json";
 import "../styles/Main.css";
 
@@ -11,15 +11,18 @@ export default class Main extends Component {
     }
   }
 
-  mixFriends = (array) => {
-    const aL = array.length;
-    for (let i=0; i < aL; i++) {
-      let x = Math.floor(Math.random() * aL);
-      let xxx = array[i];
-      array[i] = array[x];
-      array[x] = xxx;
+  mixFriends = (a) => {
+    var j, x, i;
+    for (i = a.length - 1; i > 0; i--) {
+        j = Math.floor(Math.random() * (i + 1));
+        x = a[i];
+        a[i] = a[j];
+        a[j] = x;
     }
-  }
+    return a;
+}
+
+
 
   itClicked = (id) => {
     this.props.itScored(id);
