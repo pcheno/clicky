@@ -3,6 +3,8 @@ import Friend from "./Friend";
 import friendArray from "../friendArray.json";
 import "../styles/Main.css";
 
+console.log(friendArray);
+
 export default class Main extends Component {
   constructor(props) {
     super(props)
@@ -24,7 +26,7 @@ export default class Main extends Component {
 
 
 
-  itClicked = (id) => {
+  handleClick = (id) => {
     this.props.itScored(id);
     this.setState({mix: true});
     this.mixFriends(friendArray)
@@ -32,18 +34,21 @@ export default class Main extends Component {
 
 render() {
   return (
-    <div> 
+    <div className="main"> 
+    <div className="container-fluid middle">
       <div className="jumbotron">Clicks on Morty's friends, but only once </div>
-      <div className="container friend-box"> {friendArray.map(image =>
+      <div className="container-fluid friend-box"> 
+      {friendArray.map(image =>
           <Friend
+            src = {image.src}
+            alt = {image.name}
             id = {image.id}
             key = {image.id}
-            alt = {image.name}
-            src = {image.src}
-            itClicked = {this.itClicked}
-            />
-      )}
+            
+            handleClick= {this.handleClick}
+            />)}
       </div>
+    </div>
     </div>
   )
 }

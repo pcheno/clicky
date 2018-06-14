@@ -6,7 +6,12 @@ export default class Friend extends Component {
 
     render() {
         return (
-            <img className="img-fluid friend" src={this.props.scr} alt={this.props.itClicked} />
+            <img className="img-fluid friend" 
+            id={"friend"+this.props.id}
+            src={this.props.src} 
+            alt={this.props.name} 
+            onClick={() => {this.props.handleClick(this.props.id)} }
+            />
         )
 
 
