@@ -9,7 +9,7 @@ export default class Friend extends Component {
             <img className="img-fluid friend" 
             id={"friend"+this.props.id}
             src={this.props.src} 
-            alt={this.props.name} 
+            alt={this.props.alt}
             onClick={() => {this.props.handleClick(this.props.id)} }
             />
         )

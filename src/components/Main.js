@@ -3,7 +3,6 @@ import Friend from "./Friend";
 import friendArray from "../friendArray.json";
 import "../styles/Main.css";
 
-console.log(friendArray);
 
 export default class Main extends Component {
   constructor(props) {
@@ -43,7 +42,6 @@ render() {
             src = {image.src}
             alt = {image.name}
             id = {image.id}
-            key = {image.id}
             
             handleClick= {this.handleClick}
             />)}
