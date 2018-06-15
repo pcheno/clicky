@@ -2,57 +2,57 @@
     {
         "id": "01",
         "name": "Beth",
-        "src":  "assets/images/beth.png"
+        "src":  "https://raw.githubusercontent.com/pcheno/clicky/master/public/assets/images/beth.PNG"
     },
     {
         "id": "02",
         "name": "Birdperson",
-        "src":  "assets/images/birdperson.png"
+        "src":  "https://github.com/pcheno/clicky/blob/master/public/assets/images/birdperson.PNG?raw=true"
     },
     {
         "id": "03",
         "name": "EvilMorty",
-        "src":  "assets/images/evilmorty.png"
+        "src":  "https://github.com/pcheno/clicky/blob/master/public/assets/images/evilmorty.PNG?raw=true"
     },
     {
         "id": "04",
         "name": "GiantHead",
-        "src":  "assets/images/gianthead.png"
+        "src":  "https://github.com/pcheno/clicky/blob/master/public/assets/images/gianthead.PNG?raw=true"
     },
     {
         "id": "05",
         "name": "Goldenford",
-        "src":  "assets/images/goldenford.png"
+        "src":  "https://github.com/pcheno/clicky/blob/master/public/assets/images/goldenford.PNG?raw=true"
     },
     {
         "id": "06",
         "name": "Jerry",
-        "src":  "assets/images/jerry.png"
+        "src":  "https://github.com/pcheno/clicky/blob/master/public/assets/images/jerry.PNG?raw=true"
     },
     {
         "id": "07",
         "name": "Jessica",
-        "src":  "assets/images/jessica.png"
+        "src":  "https://github.com/pcheno/clicky/blob/master/public/assets/images/jessica.PNG?raw=true"
     },
     {
         "id": "08",
         "name": "Meseeks",
-        "src":  "assets/images/meseeks.png"
+        "src":  "https://github.com/pcheno/clicky/blob/master/public/assets/images/meseeks.PNG?raw=true"
     },
     {
         "id": "09",
-        "name": "Mory",
-        "src":  "assets/images/morty.png"
+        "name": "Morty",
+        "src":  "https://github.com/pcheno/clicky/blob/master/public/assets/images/morty.PNG?raw=true"
     },
     {
         "id": "10",
         "name": "Mr",
-        "src":  "assets/images/mr.png"
+        "src":  "https://github.com/pcheno/clicky/blob/master/public/assets/images/mr.PNG?raw=true"
     },
     {
         "id": "11",
         "name": "Rick",
-        "src":  "assets/images/rick.png"
+        "src":  "https://github.com/pcheno/clicky/blob/master/public/assets/images/rick.PNG?raw=true"
     }
 
 ]
