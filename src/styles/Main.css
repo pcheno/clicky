@@ -1,8 +1,4 @@
-.section {
-  background: #f3e5f5;
-  padding: 20px;
-}
 
-.section h2 {
-  text-align: center;
+.jumbotron {
+  background-color: white
 }

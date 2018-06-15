@@ -34,8 +34,8 @@ export default class Main extends Component {
 render() {
   return (
     <div className="main"> 
-    <div className="container-fluid middle">
-      <div className="jumbotron">Clicks on Morty's friends, but only once </div>
+    <div className="container-fluid">
+      <div className="jumbotron navbar-brand ">Click on Morty's friends, but only once </div>
       <div className="container-fluid friend-box"> 
       {friendArray.map(image =>
           <Friend

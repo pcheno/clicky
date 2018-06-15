@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Navbar from "./Navbar";
 import "../styles/Header.css";
 
-// By importing the Header.css file, it is added to the DOM whenever this component loads
+
 
 export default class Header extends Component {
 
