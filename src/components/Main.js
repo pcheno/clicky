@@ -5,12 +5,7 @@ import "../styles/Main.css";
 
 
 export default class Main extends Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      mix: false
-    }
-  }
+
 
   mixFriends = (a) => {
     var j, x, i;
@@ -27,7 +22,6 @@ export default class Main extends Component {
 
   handleClick = (id) => {
     this.props.itScored(id);
-    this.setState({mix: true});
     this.mixFriends(friendArray)
   }
 
@@ -42,6 +36,7 @@ render() {
             src = {image.src}
             alt = {image.name}
             id = {image.id}
+            key = {image.id}
             
             handleClick= {this.handleClick}
             />)}
