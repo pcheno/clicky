@@ -37,7 +37,6 @@ render() {
             alt = {image.name}
             id = {image.id}
             key = {image.id}
-            
             handleClick= {this.handleClick}
             />)}
       </div>

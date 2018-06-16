@@ -14,8 +14,6 @@ export default class Navbar extends Component {
             <div className="nav-item col-4 my-auto"> Your score : {this.props.score} | High score : {this.props.topScore} </div>
           </div>
         </nav>
-
-
       </div>
     )
   }
