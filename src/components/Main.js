@@ -6,7 +6,7 @@ import "../styles/Main.css";
 
 export default class Main extends Component {
 
-
+//randomly mixing up an array
   mixFriends = (a) => {
     var j, x, i;
     for (i = a.length - 1; i > 0; i--) {
@@ -19,12 +19,12 @@ export default class Main extends Component {
 }
 
 
-
+//image clicked
   handleClick = (id) => {
     this.props.itScored(id);
     this.mixFriends(friendArray)
   }
-
+//render friend and pass properties to display for each
 render() {
   return (
     <div className="main"> 

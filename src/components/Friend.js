@@ -3,7 +3,7 @@ import "../styles/Friend.css";
 
 export default class Friend extends Component {
 
-
+//render morty's friend and wait for onClick(handleClick passed in props)
     render() {
         return (
             <img className="img-fluid friend" 

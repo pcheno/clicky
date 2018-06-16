@@ -19,16 +19,18 @@ class App extends Component {
       this.setState({score:0});
       this.setState({clicked:[]});
     } else {
+      //a good click
       this.setState({clicked: [...this.state.clicked,id]});
 
       const nextScore = this.state.score + 1;
       this.setState({
         score: nextScore
       });
+      //check if top score is beat
       if (nextScore > this.state.topScore) {
         this.setState({topScore: nextScore});
       }
-
+      //did user win?
       if (nextScore === 11) {
         alert("Winner Winner Chicken Dinner");
         this.setState({score:0});

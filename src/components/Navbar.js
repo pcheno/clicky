@@ -3,7 +3,7 @@ import "../styles/Navbar.css";
 
 export default class Navbar extends Component {
 
-
+// the scores are passed in and updated at change
   render() {
     return(
       <div>
