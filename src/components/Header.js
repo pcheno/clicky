@@ -3,7 +3,6 @@ import Navbar from "./Navbar";
 import "../styles/Header.css";
 
 
-
 export default class Header extends Component {
 
 // rendering the header containing only the navbar with the scores
